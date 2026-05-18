@@ -1,0 +1,39 @@
+{
+  "task_key": "bonn_5class",
+  "class_names": [
+    "Healthy-Z",
+    "Healthy-O",
+    "Interictal-N",
+    "Interictal-F",
+    "Ictal/Seizure"
+  ],
+  "label_names": {
+    "0": "Healthy(Z)",
+    "1": "Healthy(O)",
+    "2": "Interictal-N",
+    "3": "Interictal-F",
+    "4": "Ictal/Seizure"
+  },
+  "num_classes": 5,
+  "input_len": 512,
+  "results": {
+    "cnn": {
+      "accuracy": 0.836,
+      "precision": 0.8370899966627521,
+      "recall": 0.836,
+      "f1": 0.8345794053040657
+    },
+    "bilstm": {
+      "accuracy": 0.82,
+      "precision": 0.8271093386005528,
+      "recall": 0.82,
+      "f1": 0.817496145562143
+    },
+    "hybrid": {
+      "accuracy": 0.866,
+      "precision": 0.8780675055993628,
+      "recall": 0.866,
+      "f1": 0.8635796133096283
+    }
+  }
+}

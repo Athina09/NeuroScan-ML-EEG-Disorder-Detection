@@ -1,0 +1,3 @@
+source /Users/apple/eeg_env/bin/activate
+cd /Users/apple/ML_DL
+streamlit run app.py

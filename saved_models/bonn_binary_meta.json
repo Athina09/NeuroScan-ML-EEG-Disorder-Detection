@@ -1,0 +1,33 @@
+{
+  "task_key": "bonn_binary",
+  "class_names": [
+    "Normal",
+    "Seizure"
+  ],
+  "label_names": {
+    "0": "Normal",
+    "1": "Seizure Detected"
+  },
+  "num_classes": 2,
+  "input_len": 512,
+  "results": {
+    "cnn": {
+      "accuracy": 0.994,
+      "precision": 0.9939967648920459,
+      "recall": 0.994,
+      "f1": 0.9939810269222035
+    },
+    "bilstm": {
+      "accuracy": 0.9946666666666667,
+      "precision": 0.9946587901595774,
+      "recall": 0.9946666666666667,
+      "f1": 0.9946599684209647
+    },
+    "hybrid": {
+      "accuracy": 0.996,
+      "precision": 0.9960416299947192,
+      "recall": 0.996,
+      "f1": 0.9960099061349489
+    }
+  }
+}
